@@ -1,7 +1,10 @@
 GEM
+  remote: https://rubygems.org/
   specs:
     diff-lcs (1.2.5)
     highline (1.6.20)
+    kitchen-docker (0.13.0)
+      test-kitchen (>= 1.0.0.rc.2)
     kitchen-vagrant (0.14.0)
       test-kitchen (~> 1.0)
     mixlib-shellout (1.2.0)
@@ -33,6 +36,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  kitchen-docker
   kitchen-vagrant
   serverspec
   test-kitchen
