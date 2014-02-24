@@ -7,8 +7,13 @@ provisioner:
 
 platforms:
   - name: ubuntu-12.04
+    driver_config:
+      image: ubuntu
+      platform: ubuntu
   - name: centos-6.4
-
+    driver_config:
+      image: centos
+      platform: centos
 suites:
   - name: default
     run_list:
