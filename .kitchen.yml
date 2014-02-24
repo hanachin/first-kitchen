@@ -13,4 +13,5 @@ suites:
   - name: default
     run_list:
       - recipe[hi-kitchen::default]
+      - recipe[hi-kitchen::git]
     attributes:
